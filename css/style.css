@@ -87,13 +87,16 @@ footer nav ul li{
 }
 
 header{
-    background-color:#26160C;   
+    background-color:#26160C;
+    width: 100%;
+    height: 100%;   
 }
 
 
 
 /* con esto los pongo horizontlaes equidistantes y centrados respecto a ejey */
-header nav ul {
+
+/* header nav div  {
   list-style: none;
   display: flex; 
   flex-direction: row; 
@@ -101,17 +104,35 @@ header nav ul {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal; 
-  justify-content: center;
-  align-items: center;
-  } 
+  justify-content: center; 
+  align-items: center;  */
+  /* }  */
+  /* header nav{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+  } */
+ 
 .logo{
   width: 10rem;
   height: 10rem;
 }
 
 a{   
-  color: #8C5A2E; 
+  color: #8C5A2E;
+  
 }
+.nav-link {
+ 
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+
+} 
+
+
+
 
 /* asignamos la pseudoclase hover para que cambien de color los enlaces al pasar con el mouse */
 header nav ul li a:hover{
@@ -124,6 +145,27 @@ main nav ol li a:hover{
 footer nav ul li a:hover{
   color: rgb(255, 132, 0);
 }
+.nav-item a:hover{
+  color: rgb(255, 132, 0);
+}
+.nav-item a{
+  color: #8C5A2E;
+  
+}
+ /* .nav-bar ul li a{
+  list-style: none;
+  display: flex; 
+  flex-direction: row; 
+  font-size: 1.5 rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  justify-content: space-around;
+  align-items: center;
+   */
+
+   
+/* } */
 
 .parallax{
     background-image: url(../assets/plaza3.jpeg);
@@ -189,11 +231,11 @@ div p{
 form{
   background-color: #BF9C5A;
   border: solid 1px #26160C;
-  margin: 10rem;
- 
+ margin: 2rem; 
+  padding: 3 rem;
   width: 500px;
 }
-/* formulario */
+/* campos del formulario */
 input{
   display: block;
   margin: 1rem;
@@ -400,7 +442,7 @@ width:1fr;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr;
     grid-template-areas:
-    "header "
+    "header"
     "casa"
     "comisaria" 
     "publicidad"
