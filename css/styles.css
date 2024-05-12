@@ -411,9 +411,9 @@ width:1fr;
  }
  
  .galeria img{
-  width: 85%;
-  height: 85%; 
-   object-fit:cover;
+  width: 100%;
+  height: 100%; 
+  object-fit:cover;
   border-radius: 1%; 
  }
   /* hasta aca son estilos generales */
