@@ -219,8 +219,22 @@ form{
   border: solid 1px #26160C;
  margin: 2rem;
   padding: 3 rem;
-  width: 500px;
+  width:100%;
 }
+/* probando acomodar la tabla de horarios */
+.table th { 
+  
+  background-color: #59210C;
+  /* margin: 2 rem; */
+  padding: 3rem;
+  width:80%;
+  font-size: medium;
+}  
+td{
+  font-size: medium;
+}
+
+
 /* campos del formulario */
 input{
   display: block;
