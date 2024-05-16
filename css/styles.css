@@ -148,7 +148,6 @@ footer nav ul li a:hover{
   color: #8C5A2E;
 
 }
- 
 .parallax{
     background-image: url(../assets/plaza3.jpeg);
     background-attachment: fixed;
@@ -190,7 +189,7 @@ div p{
   background-image: url(../assets/girl-7629838_640.jpg);
   background-attachment: fixed;
   background-position: center;
-  background-repeat:repeat;
+  background-repeat:no-repeat;
   background-size: contain;
   height: 70vh;
 }
@@ -402,21 +401,21 @@ width:1fr;
   }
 
   /* Mobil */
- @media screen and (min-with: 320px) and (max-with:767px)
+ /* @media screen (min-with: 320px) and (max-with:767px)
  {
 
   .gridcontainer{
 
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-    "header"
+ 
     "casa"
     "comisaria"
-    "publicidad"
-    "footer";
+    "publicidad";
+  
   }
-}
+} */
  /*Tablet */
  /* @media screen and (min-with:768px) and (max-with: 1023px)
  {
