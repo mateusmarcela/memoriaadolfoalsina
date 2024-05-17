@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   /* reseteo */
   margin: 0;
@@ -8,4 +9,305 @@
 
 html {
   font-size: 62.5%;
+}
+html body {
+  /* con esto los pongo horizontlaes equidistantes y centrados respecto a ejey */
+}
+html body h1 {
+  color: #8C5A2E;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+html body h2 {
+  color: #26160C;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+html body h3 {
+  color: #26160C;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html body h4 {
+  color: #26160C;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+html body p {
+  color: #8C5A2E;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+html body ol li {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html body footer {
+  background-color: #26160C;
+}
+html body footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+html body footer nav ul li {
+  list-style-type: none;
+  justify-content: center;
+  align-items: normal;
+  text-align: center;
+  margin: 0.5rem;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+html body header {
+  background-color: #26160C;
+  width: 100%;
+  height: 100%;
+}
+html body header nav div {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+}
+html body header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+html body .logo {
+  width: 10rem;
+  height: 10rem;
+}
+html body a {
+  color: #8C5A2E;
+}
+html body .nav-link {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 3rem;
+}
+html body header nav ul li a:hover {
+  color: rgb(255, 132, 0);
+}
+html body footer nav ul li a:hover {
+  color: rgb(255, 132, 0);
+}
+html body .nav-item a:hover {
+  color: rgb(255, 132, 0);
+}
+html body .nav-item a {
+  color: #8C5A2E;
+}
+html body .parallax, html body .parallax3, html body .parallax2, html body .parallax1 {
+  background-image: url(../assets/plaza3.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+html body .parallax1 {
+  background-image: url(../assets/girl-7629838_640.jpg);
+}
+html body .parallax2 {
+  background-image: url(../assets/law-1898974_640.png);
+}
+html body .parallax3 {
+  background-image: url(../assets/dna-1500076_640.jpg);
+}
+html body .doscolum {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 40rem;
+  margin-bottom: 2rem;
+}
+html body .doscolum div {
+  padding: 3rem;
+  background-color: #BF9C5A;
+  text-align: center;
+}
+html body .doscolum div img {
+  width: 20rem;
+  height: 20rem;
+  margin: 3rem;
+}
+html body .doscolum div p {
+  padding: 2rem;
+}
+html body .doscolumreverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  height: 40rem;
+  margin-bottom: 2rem;
+}
+html body .doscolumreverse div {
+  padding: 3rem;
+  background-color: #D9BF8F;
+  text-align: center;
+}
+html body .doscolumreverse div img {
+  width: 20rem;
+  height: 20rem;
+  margin: 3rem;
+}
+html body .doscolumreverse div p {
+  padding: 2rem;
+}
+html body form {
+  background-color: #BF9C5A;
+  border: solid 1px #26160C;
+  margin: 2rem;
+  padding: 3 rem;
+  width: 100%;
+}
+html body form input {
+  display: block;
+  margin: 1rem;
+  width: 400px;
+}
+html body form textarea {
+  height: 10rem;
+  width: 400px;
+}
+html body form .btn-submit {
+  background-color: #8C5A2E;
+  border: solid 1px;
+  border-radius: 2%;
+  width: 5rem;
+  height: 2rem;
+}
+html body .table th {
+  background-color: #59210C;
+  /* margin: 2 rem; */
+  padding: 3rem;
+  width: 80%;
+  font-size: medium;
+}
+html body .table th td {
+  font-size: medium;
+}
+html body iframe {
+  width: 200;
+  height: 400;
+  margin: 2rem;
+  padding: 4rem;
+  background-position: center;
+}
+html body .novedades {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  height: 35rem;
+  padding: 2rem;
+}
+html body .novedades div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  padding: 3rem;
+  margin: 1rem;
+  background-color: #BF9C5A;
+  text-align: center;
+}
+html body .diente img, html body .libro img, html body #acto img {
+  width: 40rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+html body .gridcasa {
+  grid-area: casa;
+  background-color: #D9BF8F;
+  text-align: center;
+  padding: 1rem;
+  width: auto;
+}
+html body .gridcomisaria {
+  grid-area: comisaria;
+  background-color: #BF9C5A;
+  text-align: center;
+  padding: 1rem;
+  width: auto;
+}
+html body .gridpublicidad {
+  grid-area: publicidad;
+  background-color: antiquewhite;
+  text-align: center;
+  margin-top: 20rem;
+  width: auto;
+}
+html body .gridpublicidad iframe {
+  width: 1fr;
+}
+html body .gridcontainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "casa publicidad" "comisaria publicidad";
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  width: 100%;
+}
+html body .galeria {
+  display: grid;
+  grid-gap: 1rem;
+  background-color: #26160C;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+html body .galeria img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+  padding: 0.5rem;
+}
+html body .galeria .galeria-img-uno {
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+html body .galeria .galeria-img-dos {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+html body .galeria .galeria-img-tres {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+html body .galeria .galeria-img-cuatro {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+html body .galeria .galeria-img-cinco {
+  grid-column: 3/5;
+  grid-row: 4/5;
+}
+html body .galeria .galeria-img-siete {
+  grid-column: 1/3;
+  grid-row: 4/5;
 }/*# sourceMappingURL=styles.css.map */

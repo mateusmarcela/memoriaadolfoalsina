@@ -1,11 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-    /* reseteo */
-    margin: 0 ;
-    padding: 0; 
-    width: 100%; 
-    max-width: 1200px;
-    }
-// copio la primer parte de mi css de github y la pego ac'a para ver como se replica en el css nuevo/
+/* reseteo */
+margin: 0 ;
+padding: 0;
+width: 100%;
+max-width: 1200px;
+}
+$marronoscuro:#26160C;
+$marronguinda: #59210C; 
+$marroncaqui:#8C5A2E; 
+$marronbeige: #D9BF8F ;
+$marronclaro: #BF9C5A ;
+
+
+
 html{
     font-size: 62.5%;
+    body{
+        h1{
+            color: $marroncaqui;
+            font-size: 4rem;
+            font-family: "Poppins", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          text-align: center;
+        }
+        h2{
+            color: $marronoscuro ;
+            font-size: 3rem;
+            font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          text-align:center;
+        }
+       
+           
+          
+        h3{
+            color: $marronoscuro;
+            font-size: 2rem;
+            font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        h4{
+            color: $marronoscuro;
+            font-size: 1.5rem;
+            font-family: "Poppins", sans-serif;
+          font-weight: 500;
+          font-style: italic;
+        }
+        p{
+           color: $marroncaqui;
+           font-size: 2rem;
+           font-family: "Poppins", sans-serif;
+           font-weight: 400;
+           font-style: italic;
+           text-align: center;
+        
+        }
+        ol {
+            li{
+            font-size: 2rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+        }
+        footer{
+            background-color:$marronoscuro;
+        }
+        footer{
+            nav {
+                display: flex;
+                  flex-direction:row;
+                  justify-content:space-around;
+              
+              }
+
+        } 
+        footer{
+            nav{
+                ul{
+                    li{
+                        list-style-type: none ;
+                        justify-content: center;
+                        align-items: normal;
+                        text-align: center;
+                        margin: 0.5rem;
+                        font-size: 2rem;
+                        padding-bottom: 0.5rem;
+                      }
+                } 
+            } 
+        } 
+        header{
+            background-color:$marronoscuro;
+            width: 100%;
+            height: 100%;
+        }
+        /* con esto los pongo horizontlaes equidistantes y centrados respecto a ejey */
+        
+        header{
+                nav{
+                    div {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    font-size: 1.5rem;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    justify-content: center;
+                    align-items: center;
+                        } 
+                    }
+                } 
+          header{
+                nav{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content:space-around;
+                    }
+                } 
+        
+        .logo{
+          width: 10rem;
+          height: 10rem;
+        }
+        a{
+            color:$marroncaqui;
+          
+          }
+          .nav-link {
+
+            font-size: 1.5rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 3rem;
+          
+          }
+          header{ 
+                nav{
+                    ul{                            
+                            li{
+                                a:hover{
+                                    color: rgb(255, 132, 0);
+                                }
+                            }
+                        }
+                    }
+             } 
+          footer{ 
+            nav{ 
+                ul{ 
+                     li{ 
+                            a:hover{
+                                color: rgb(255, 132, 0);
+                            }
+                        }
+                   }
+                }
+            }
+          .nav-item {
+                    a:hover{
+                            color: rgb(255, 132, 0);
+                            }
+                    }
+          .nav-item {
+                        a{
+                        color:$marroncaqui;         
+                        }
+                    }
+
+   
+            .parallax{
+                background-image: url(../assets/plaza3.jpeg);
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 70vh;
+                     }
+            .parallax1{
+                background-image: url(../assets/girl-7629838_640.jpg);
+                @extend .parallax
+                        }
+            .parallax2{
+                background-image: url(../assets/law-1898974_640.png);
+                @extend .parallax
+                    }
+            .parallax3{
+                background-image: url(../assets/dna-1500076_640.jpg);
+                 @extend .parallax
+                    }
+                    .doscolum{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start ;
+                        height: 40rem;
+                        margin-bottom: 2rem;
+                                div{
+                                    padding: 3rem;
+                                    background-color:#BF9C5A;
+                                    text-align: center;
+                                    img {
+                                        width: 20rem;
+                                        height:20rem;
+                                        margin: 3rem;
+                                    }
+                                    p{
+                                        padding:2rem  ;
+                                    }  
+                               }
+                      }
+                      .doscolumreverse{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: flex-start ;
+                        height: 40rem;
+                        margin-bottom: 2rem;
+                                div{
+                                    padding: 3rem;
+                                    background-color:#D9BF8F;
+                                    text-align: center;
+                                    img {
+                                        width: 20rem;
+                                        height:20rem;
+                                        margin: 3rem;
+                                    }
+                                    p{
+                                        padding:2rem  ;
+                                    }  
+                                }
+                      }
+                                        
+                    form{
+                        background-color:$marronclaro;
+                        border: solid 1px $marronoscuro;
+                        margin: 2rem;
+                        padding: 3 rem;
+                        width:100%;
+                        input{
+                            display: block;
+                            margin: 1rem;
+                            width: 400px;
+                            }
+                            textarea{
+                            height: 10rem;
+                            width: 400px;
+                            }
+                            .btn-submit{
+                            background-color: $marroncaqui;
+                            border: solid 1px ;
+                            border-radius: 2%;
+                            width: 5rem;
+                            height: 2rem;
+                            }
+                              
+                        }
+                    .table{
+                         th { 
+                              background-color: #59210C;
+                                /* margin: 2 rem; */
+                                padding: 3rem;
+                                width:80%;
+                                font-size: medium;
+                                   td{
+                                    font-size: medium;
+                                    }
+                            }
+                        }
+                        iframe{
+                            width: 200;
+                            height: 400;
+                            margin: 2rem;
+                            padding: 4rem;
+                            background-position: center;
+                          }
+                          .novedades{
+                          display: flex;
+                            flex-direction: row-reverse;
+                            justify-content: flex-start ;
+                            height: 35rem;
+                            padding: 2rem;
+                                    div {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width:33.33% ;
+                                        padding: 3rem;
+                                        margin: 1rem;
+                                        background-color:$marronclaro;
+                                        text-align: center;
+                                        }
+                         }
+                         .diente{
+                            img {
+                               width: 40rem;
+                               height: fit-content;
+                              }
+                          }
+                         #acto {
+                            @extend .diente
+                         }                         
+                        .libro {
+                            @extend .diente
+                        }
+                        .gridcasa{
+                            grid-area: casa;
+                            background-color: #D9BF8F;
+                            text-align: center;
+                            padding: 1rem;
+                            width: auto; 
+                           }
+                           .gridcomisaria{
+                            grid-area: comisaria; 
+                            background-color: $marronclaro;
+                            text-align: center;
+                            padding: 1rem;
+                            width: auto;   
+                           }
+                            .gridpublicidad{
+                            grid-area: publicidad;
+                            background-color: antiquewhite;
+                            text-align: center;
+                            margin-top: 20rem;
+                            width: auto;
+                            iframe{ 
+                                width:1fr;
+                                 } 
+                           }                         
+                           .gridcontainer{
+                            display: grid;
+                            grid-template-columns: 3fr 1fr;
+                            grid-template-rows: 1fr 1fr ;
+                            grid-template-areas:
+                            "casa publicidad"
+                            "comisaria publicidad";
+                            grid-column-gap: 1rem;
+                            grid-row-gap: 1rem;
+                            width: 100%;
+                          
+                           }
+                           .galeria{
+                            display:grid;
+                            grid-gap: 1rem;
+                            background-color: $marronoscuro;
+                            grid-template-columns: repeat(4, 1fr);
+                            grid-template-rows: repeat(4, 1fr);
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 1% ;
+                                padding: 0.5rem;
+
+                                 
+                               }
+                               .galeria-img-uno {
+                                grid-column: 1/5;
+                                grid-row: 1/3;
+                            
+                              }
+                              .galeria-img-dos {
+                                grid-column: 3/4;
+                                grid-row: 3/4;
+                              }
+                              .galeria-img-tres {
+                                grid-column:4/5;
+                                grid-row: 3/4;
+                              }
+                              .galeria-img-cuatro {
+                                grid-column: 1/3;
+                                grid-row: 3/4;
+                              }
+                              .galeria-img-cinco {
+                                grid-column: 3/5;
+                                grid-row: 4/5;
+                              }
+                             
+                              .galeria-img-siete {
+                                grid-column: 1/3;
+                                grid-row: 4/5;
+                              }                   
+                                
+                           }
+
+                          
+                          
+                          
+                     
+                          
+                          
+                           
+                        
+                         
+                          
+                          
+                         
+                      
+     }
 }
+
