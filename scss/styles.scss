@@ -67,34 +67,36 @@ html{
             font-weight: 400;
             font-style: normal;
             }
+            @import 'footer';
         }
-        footer{
-            background-color:$marronoscuro;
-        }
-        footer{
-            nav {
-                display: flex;
-                  flex-direction:row;
-                  justify-content:space-around;
+        // footer{
+        //     background-color:$marronoscuro;
+        // }
+        // footer{
+        //     nav {
+        //         display: flex;
+        //           flex-direction:row;
+        //           justify-content:space-around;
               
-              }
+        //       }
 
-        } 
-        footer{
-            nav{
-                ul{
-                    li{
-                        list-style-type: none ;
-                        justify-content: center;
-                        align-items: normal;
-                        text-align: center;
-                        margin: 0.5rem;
-                        font-size: 2rem;
-                        padding-bottom: 0.5rem;
-                      }
-                } 
-            } 
-        } 
+        // } 
+        // footer{
+        //     nav{
+        //         ul{
+        //             li{
+        //                 list-style-type: none ;
+        //                 justify-content: center;
+        //                 align-items: normal;
+        //                 text-align: center;
+        //                 margin: 0.5rem;
+        //                 font-size: 2rem;
+        //                 padding-bottom: 0.5rem;
+        //               }
+                //      }
+                //  } 
+                // }
+         
         header{
             background-color:$marronoscuro;
             width: 100%;
@@ -153,17 +155,17 @@ html{
                         }
                     }
              } 
-          footer{ 
-            nav{ 
-                ul{ 
-                     li{ 
-                            a:hover{
-                                color: rgb(255, 132, 0);
-                            }
-                        }
-                   }
-                }
-            }
+        //   footer{ 
+        //     nav{ 
+        //         ul{ 
+        //              li{ 
+        //                     a:hover{
+        //                         color: rgb(255, 132, 0);
+        //                     }
+        //                 }
+        //            }
+        //         }
+        //     }
           .nav-item {
                     a:hover{
                             color: rgb(255, 132, 0);
@@ -175,7 +177,7 @@ html{
                         }
                     }
 
-   
+            
             .parallax{
                 background-image: url(../assets/plaza3.jpeg);
                 background-attachment: fixed;
@@ -388,8 +390,9 @@ html{
                               }                   
                                 
                            }
-
-                          
+                        
+                        }
+                    }
                           
                           
                      
@@ -400,8 +403,6 @@ html{
                          
                           
                           
-                         
-                      
-     }
-}
+                       
+
 

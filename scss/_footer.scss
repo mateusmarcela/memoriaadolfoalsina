@@ -1,0 +1,38 @@
+footer{
+    background-color:$marronoscuro;
+}
+footer{
+    nav {
+        display: flex;
+          flex-direction:row;
+          justify-content:space-around;
+      
+      }
+
+} 
+footer{
+    nav{
+        ul{
+            li{
+                list-style-type: none ;
+                justify-content: center;
+                align-items: normal;
+                text-align: center;
+                margin: 0.5rem;
+                font-size: 2rem;
+                padding-bottom: 0.5rem;
+              }
+            }
+        }
+    }
+    footer{ 
+            nav{ 
+                ul{ 
+                       li{ 
+                             a:hover{
+                                  color: rgb(255, 132, 0);
+                              }
+                          }
+                     }
+                  }
+              }
