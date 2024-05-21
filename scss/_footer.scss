@@ -21,6 +21,8 @@ footer{
                 margin: 0.5rem;
                 font-size: 2rem;
                 padding-bottom: 0.5rem;
+               
+               
               }
             }
         }
@@ -31,8 +33,26 @@ footer{
                        li{ 
                              a:hover{
                                   color: rgb(255, 132, 0);
+                                 
                               }
+                            }
                           }
                      }
                   }
-              }
+    footer{ 
+    nav{ 
+        ul{ 
+                li{ 
+                        svg{
+                            color: rgb(255, 132, 0);
+                            transition: height 2s;
+                            
+                            
+                        }
+                    }
+                    }
+                }
+            }
+svg:hover{
+height: 50px;
+        }
