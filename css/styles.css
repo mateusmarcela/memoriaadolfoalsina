@@ -168,6 +168,43 @@ html body .gridcontainer {
   grid-row-gap: 1rem;
   width: 100%;
 }
+html body .galeria {
+  display: grid;
+  grid-gap: 1rem;
+  background-color: #26160C;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+html body img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+  padding: 0.5rem;
+}
+html body .galeria-img-uno {
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+html body .galeria-img-dos {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+html body .galeria-img-tres {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+html body .galeria-img-cuatro {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+html body .galeria-img-cinco {
+  grid-column: 3/5;
+  grid-row: 4/5;
+}
+html body .galeria-img-siete {
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
 html body .doscolum {
   display: flex;
   flex-direction: row;
@@ -270,41 +307,4 @@ html body .diente img, html body .libro img, html body #acto img {
   width: 40rem;
   height: -moz-fit-content;
   height: fit-content;
-}
-html body .galeria {
-  display: grid;
-  grid-gap: 1rem;
-  background-color: #26160C;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-}
-html body .galeria img {
-  width: 100%;
-  height: 100%;
-  border-radius: 1%;
-  padding: 0.5rem;
-}
-html body .galeria .galeria-img-uno {
-  grid-column: 1/5;
-  grid-row: 1/3;
-}
-html body .galeria .galeria-img-dos {
-  grid-column: 3/4;
-  grid-row: 3/4;
-}
-html body .galeria .galeria-img-tres {
-  grid-column: 4/5;
-  grid-row: 3/4;
-}
-html body .galeria .galeria-img-cuatro {
-  grid-column: 1/3;
-  grid-row: 3/4;
-}
-html body .galeria .galeria-img-cinco {
-  grid-column: 3/5;
-  grid-row: 4/5;
-}
-html body .galeria .galeria-img-siete {
-  grid-column: 1/3;
-  grid-row: 4/5;
 }/*# sourceMappingURL=styles.css.map */

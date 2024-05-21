@@ -1,36 +1,36 @@
 .gridcasa{
     grid-area: casa;
     background-color: #D9BF8F;
-    text-align: center;
-    padding: 1rem;
-    width: auto; 
-   }
-   .gridcomisaria{
-    grid-area: comisaria; 
-    background-color: $marronclaro;
-    text-align: center;
-    padding: 1rem;
-    width: auto;   
-   }
-    .gridpublicidad{
+     text-align: center;
+     padding: 1rem;
+     width: auto; 
+    }
+    .gridcomisaria{
+     grid-area: comisaria; 
+     background-color: $marronclaro;
+     text-align: center;
+     padding: 1rem;
+     width: auto;   
+    }
+     .gridpublicidad{
     grid-area: publicidad;
-    background-color: antiquewhite;
-    text-align: center;
+     background-color: antiquewhite;
+     text-align: center;
     margin-top: 20rem;
     width: auto;
     iframe{ 
         width:1fr;
-         } 
-   }                         
+          } 
+   }
    .gridcontainer{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+   grid-template-rows: 1fr 1fr ;
     grid-template-areas:
-    "casa publicidad"
+   "casa publicidad"
     "comisaria publicidad";
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
-    width: 100%;
-  
-   }
+ width: 100%;
+ 
+ }                         
