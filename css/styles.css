@@ -10,6 +10,50 @@
 html {
   font-size: 62.5%;
 }
+html body h1 {
+  color: #8C5A2E;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+html body h2 {
+  color: #26160C;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+html body h3 {
+  color: #26160C;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html body h4 {
+  color: #26160C;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+html body p {
+  color: #8C5A2E;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+html body ol li {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 html body footer {
   background-color: #26160C;
 }
@@ -74,49 +118,55 @@ html body .nav-item a:hover {
 html body .nav-item a {
   color: #8C5A2E;
 }
-html body h1 {
-  color: #8C5A2E;
-  font-size: 4rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+html body .parallax, html body .parallax3, html body .parallax2, html body .parallax1 {
+  background-image: url(../assets/plaza3.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+html body .parallax1 {
+  background-image: url(../assets/girl-7629838_640.jpg);
+}
+html body .parallax2 {
+  background-image: url(../assets/law-1898974_640.png);
+}
+html body .parallax3 {
+  background-image: url(../assets/dna-1500076_640.jpg);
+}
+html body .gridcasa {
+  grid-area: casa;
+  background-color: #D9BF8F;
   text-align: center;
+  padding: 1rem;
+  width: auto;
 }
-html body h2 {
-  color: #26160C;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+html body .gridcomisaria {
+  grid-area: comisaria;
+  background-color: #BF9C5A;
   text-align: center;
+  padding: 1rem;
+  width: auto;
 }
-html body h3 {
-  color: #26160C;
-  font-size: 2rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-html body h4 {
-  color: #26160C;
-  font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-html body p {
-  color: #8C5A2E;
-  font-size: 2rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+html body .gridpublicidad {
+  grid-area: publicidad;
+  background-color: antiquewhite;
   text-align: center;
+  margin-top: 20rem;
+  width: auto;
 }
-html body ol li {
-  font-size: 2rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+html body .gridpublicidad iframe {
+  width: 1fr;
+}
+html body .gridcontainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "casa publicidad" "comisaria publicidad";
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  width: 100%;
 }
 html body .doscolum {
   display: flex;
@@ -220,39 +270,6 @@ html body .diente img, html body .libro img, html body #acto img {
   width: 40rem;
   height: -moz-fit-content;
   height: fit-content;
-}
-html body .gridcasa {
-  grid-area: casa;
-  background-color: #D9BF8F;
-  text-align: center;
-  padding: 1rem;
-  width: auto;
-}
-html body .gridcomisaria {
-  grid-area: comisaria;
-  background-color: #BF9C5A;
-  text-align: center;
-  padding: 1rem;
-  width: auto;
-}
-html body .gridpublicidad {
-  grid-area: publicidad;
-  background-color: antiquewhite;
-  text-align: center;
-  margin-top: 20rem;
-  width: auto;
-}
-html body .gridpublicidad iframe {
-  width: 1fr;
-}
-html body .gridcontainer {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "casa publicidad" "comisaria publicidad";
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  width: 100%;
 }
 html body .galeria {
   display: grid;
