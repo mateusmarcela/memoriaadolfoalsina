@@ -1,0 +1,20 @@
+.parallax{
+    background-image: url(../assets/plaza3.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+         }
+.parallax1{
+    background-image: url(../assets/girl-7629838_640.jpg);
+    @extend .parallax
+            }
+.parallax2{
+    background-image: url(../assets/law-1898974_640.png);
+    @extend .parallax
+        }
+.parallax3{
+    background-image: url(../assets/dna-1500076_640.jpg);
+     @extend .parallax
+        }
