@@ -238,8 +238,6 @@ html body .doscolum {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 40rem;
-  margin-bottom: 2rem;
 }
 html body .doscolum div {
   padding: 3rem;
@@ -258,8 +256,6 @@ html body .doscolumreverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
-  height: 40rem;
-  margin-bottom: 2rem;
 }
 html body .doscolumreverse div {
   padding: 3rem;

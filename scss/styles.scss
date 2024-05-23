@@ -204,11 +204,11 @@ html{
             //      @extend .parallax
             //         }
                     .doscolum{
-                        display: flex;
+                        display: flex ;
                         flex-direction: row;
                         justify-content: flex-start ;
-                        height: 40rem;
-                        margin-bottom: 2rem;
+                        // height: 40rem;
+                        // margin-bottom: 2rem;
                                 div{
                                     padding: 3rem;
                                     background-color:#BF9C5A;
@@ -227,8 +227,8 @@ html{
                         display: flex;
                         flex-direction: row-reverse;
                         justify-content: flex-start ;
-                        height: 40rem;
-                        margin-bottom: 2rem;
+                        // height: 40rem;
+                        // margin-bottom: 2rem;
                                 div{
                                     padding: 3rem;
                                     background-color:#D9BF8F;
