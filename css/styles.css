@@ -17,6 +17,7 @@ html body h1 {
   font-weight: 500;
   font-style: normal;
   text-align: center;
+  padding-top: 1rem;
 }
 html body h2 {
   color: #26160C;
@@ -25,6 +26,7 @@ html body h2 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  margin-top: 3rem;
 }
 html body h3 {
   color: #26160C;
@@ -32,6 +34,8 @@ html body h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 3rem;
+  padding-top: 2rem;
 }
 html body h4 {
   color: #26160C;
@@ -321,8 +325,12 @@ html body .novedades div {
   background-color: #BF9C5A;
   text-align: center;
 }
+html body .diente, html body .libro, html body #acto {
+  background-color: #D9BF8F;
+}
 html body .diente img, html body .libro img, html body #acto img {
   width: 40rem;
   height: -moz-fit-content;
   height: fit-content;
+  padding: 2rem;
 }/*# sourceMappingURL=styles.css.map */
