@@ -147,6 +147,9 @@ html body .nav-item a:hover {
 html body .nav-item a {
   color: #8C5A2E;
 }
+html body #menuBurguer {
+  color: rgb(255, 132, 0);
+}
 html body .parallax, html body .parallax3, html body .parallax2, html body .parallax1 {
   background-image: url(../assets/plaza3.jpeg);
   background-attachment: fixed;
