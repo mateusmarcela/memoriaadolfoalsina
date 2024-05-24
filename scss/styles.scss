@@ -288,19 +288,19 @@ html{
                             background-position: center;
                           }
                           .novedades{
-                          display: flex;
-                            flex-direction: row-reverse;
-                            justify-content: flex-start ;
-                            height: 35rem;
-                            padding: 2rem;
+                        //   display: flex;
+                        //     flex-direction: row-reverse;
+                        //     justify-content: space-between ;
+                            //  height: 35rem;
+                             padding: 2rem;
                                     div {
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: center;
-                                        align-items: center;
-                                        width:33.33% ;
-                                        padding: 3rem;
-                                        margin: 1rem;
+                                        // display: flex;
+                                        // flex-direction: column;
+                                        // justify-content: center;
+                                        // align-items: center;
+                                        // width:33.33% ;
+                                         padding: 5rem;
+                                        //  margin: 1rem;
                                         background-color:$marronclaro;
                                         text-align: center;
                                         }

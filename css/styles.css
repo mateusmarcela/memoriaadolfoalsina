@@ -311,20 +311,10 @@ html body iframe {
   background-position: center;
 }
 html body .novedades {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-  height: 35rem;
   padding: 2rem;
 }
 html body .novedades div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 33.33%;
-  padding: 3rem;
-  margin: 1rem;
+  padding: 5rem;
   background-color: #BF9C5A;
   text-align: center;
 }
