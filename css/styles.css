@@ -50,13 +50,16 @@ html body p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: italic;
-  text-align: center;
+  text-align: justify;
+  padding: 1rem;
 }
 html body ol li {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding-left: 2rem;
+  list-style-type: none;
 }
 html body footer {
   background-color: #26160C;
